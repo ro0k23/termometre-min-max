@@ -11,7 +11,7 @@ tempmax = température
 tempmin = température
 basic.forever(function () {
     basic.showString(".")
-    tempmin = tempmin
+    température = input.temperature()
     if (température < tempmin) {
         tempmin = température
     }
